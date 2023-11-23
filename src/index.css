@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'mm script';
+  src: url(./assets/fonts/Morning\ Memories-Script.otf);
+}
+
+@font-face {
+  font-family: 'mm doodles';
+  src: url(./assets/fonts/Morning\ Memories-Doodles.otf);
+}
+
+@font-face {
+  font-family: 'mm italic';
+  src: url(./assets/fonts/Morning\ Memories-Italic.otf);
+}
+
+@font-face {
+  font-family: 'mm regular';
+  src: url(./assets/fonts/Morning\ Memories-Regular.otf);
+}
+
+@font-face {
+  font-family: 'frutiger bold';
+  src: url(./assets/fonts/Frutiger_bold.ttf);
+}
+
+@font-face {
+  font-family: 'frutiger';
+  src: url(./assets/fonts/Frutiger.ttf);
+}
+
+:root{
+  --color-1:#14c6ac;
+  --color-2: #03366d; 
+  --color-3: #FFFFFF;
+  --color-4: #605bd4;
+  --color-5: #0099fa;
+  --color-6: #fa0000;
+  --color-7: #feb454;
+  --color-8: #e66e4c;
+  --color-9: #161616;
+}

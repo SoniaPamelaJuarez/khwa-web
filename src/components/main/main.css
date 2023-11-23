@@ -1,0 +1,156 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 5%;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.hola{
+    font-family: 'mm regular';
+    text-align: left;
+    width: 50%;
+}
+
+.hola p{
+    font-family: 'frutiger';
+    font-size:larger;
+}
+
+.subt h3{
+    font-family: 'mm italic';
+    color: var(--color-4);
+    font-size: 180%;
+}
+
+.subt h1{
+    font-size: 400%;
+}
+.isologo-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isologo-img{
+    width: 60%;
+}
+
+.btn-contact{
+    width: 100%;
+    font-size: large;
+    letter-spacing: 3px;
+    background-color: var(--color-4);
+    border: 1px solid var(--color-4);
+}
+
+.btn:hover{
+    background-color: var(--color-1);
+    border: 1px solid var(--color-1);
+}
+
+.div-btn-serv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-serv{
+    width: 20%;
+    font-family: 'mm regular';
+    font-size:x-large;
+    letter-spacing: 3px;
+    background-color: white;
+    color: var(--color-4);
+    border: 1px solid var(--color-1);
+    margin: 1%;
+}
+
+.btn-serv:hover{
+    background-color: var(--color-4);
+    border: 1px solid var(--color-4);
+}
+
+.div-flecha{
+    padding-top: 5%;
+    width: 100%;
+}
+
+.div-flecha img{
+    width: 30%;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px); /* Ajusta la distancia hacia abajo según tus preferencias */
+    }
+}
+
+.arrow {
+    animation: slideDown 1s ease-in-out infinite alternate; /* Ajusta la duración y el efecto según tus preferencias */
+}
+
+/* Mobile style */
+
+@media screen and (max-width:800px) {
+    .hola{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hola h1{
+        font-size: xx-large;
+    }
+    .hola h3{
+        font-size: 100%;
+        color: var(--color-4);
+    }
+    .div-flecha img{
+        width: 20%;
+    }
+    .isologo-div{
+        width: 100%;
+    }
+    .isologo-img{
+        width: 30%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-contact{
+        font-size: 70%;
+        font-weight: bold;
+        font-family: 'mm regular';
+    }
+    .main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.proposito{
+    font-size: medium;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+

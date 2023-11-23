@@ -1,0 +1,11 @@
+.wsp-div{
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: 10%;
+    z-index: 200;
+}
+
+.wsp-div img{
+    width: 40%;
+}

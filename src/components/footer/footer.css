@@ -1,0 +1,30 @@
+.footer-div{
+    width: 100%;
+    background-color: var(--color-3);
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cr{
+    width: 33.33%;
+    font-family: 'frutiger';
+    color: var(--color-9);
+    padding-top: 1%;
+}
+
+.logo-footer{
+    width: 33.33%;
+    justify-content: center;
+    padding-left: 0%;
+}
+
+@media screen and (max-width:953px) {
+    .cr p{
+        font-size: 0.8em;
+    }
+    .img-logo{
+        width: 50%;
+    }
+}

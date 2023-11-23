@@ -1,0 +1,209 @@
+.div-father{
+    margin-top: 5%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    background-color: var(--color-9);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.servicios, .otros-servicios{
+    overflow-x: hidden;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    font-family: 'mm regular';
+    margin-top: 2%;
+}
+
+.div-card{
+    width: 100%;
+    display: flex;
+    padding: 2%;
+}
+
+.card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: var(--color-1);
+}
+
+.card-1 h1{
+    font-size: 13em;
+}
+
+.card-1 .imagina{
+    font-size: 15em;
+}
+
+.card-1 p{
+    font-family: 'frutiger';
+    text-align: left;
+    padding-left: 2%;
+    font-size: larger;
+    color: var(--color-3);
+}
+
+.card-1 p mark{
+    background-color: var(--color-1);
+}
+
+.card-2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta-div{
+    width: 15%;
+    height: 200px;
+    background-color: var(--color-1);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    padding: 0.4%;
+    font-size: small;
+}
+
+.card-2 img{
+    width:60%;
+    height: 100%;
+    border: none;
+}
+
+.tarjeta-div h1{
+    font-size: 200%;
+}
+
+.tarjeta-div h2{
+    font-size: 200%;
+}
+
+.img-sinpad{
+    padding: 0%;
+}
+
+.btn-mas{
+    font-family: 'frutiger bold';
+    width: 50%;
+    background-color: var(--color-3);
+    border: none;
+    color: var(--color-9);
+    font-size: medium;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.btn-mas:hover{
+    background-color: var(--color-3);
+    color: var(--color-9);
+    opacity: 0.8;
+    border: none;
+}
+
+.color-lila{
+    background-color: var(--color-4);
+    color: #ffff;
+}
+
+.titulo-serv{
+    margin-top: 2%;
+    text-align: left;
+}
+
+.titulo-serv h1{
+    font-size: 300%;
+    font-family: 'mm regular';
+    text-align: center;
+}
+
+.titulo-serv img{
+    width: 1%;
+}
+
+.black{
+    background-color: var(--color-9);
+}
+
+.color-yellow{
+    background-color: var(--color-7);
+}
+
+.color-bronce{
+    background-color: var(--color-8);
+    color: var(--color-3);
+}
+
+.titulo-otros{
+    margin-top: 2%;
+    font-family: 'mm regular';
+    color: var(--color-1);
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:768px) {
+    .card-2 img{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1155px) {
+    .web-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1155px) {
+    .servicios{
+        flex-direction: column;
+    }
+    .div-card{
+        flex-direction: column;
+    }
+    .card-1{
+        align-items: center;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .card-1 p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .card-2{
+        width: 100%;
+    }
+    .card-2 img{
+        width: 40%;
+    }
+    .mobile-img{
+        display: none;
+    }
+    .titulo-otros{
+        font-size: 1em;
+    }
+    .otros-servicios{
+        flex-wrap: wrap;
+    }
+    .otros-servicios .tarjeta-div{
+        padding: 3%;
+        width: 200px;
+        height: auto;
+        font-size: 0.5em;
+    }
+    .btn-mas{
+        font-size: 1.5em;
+    }
+}
+

@@ -1,0 +1,125 @@
+#diseno{
+  width: 100%;
+  background-color: var(--color-9);
+  margin-top: 2%;
+  font-family: 'mm regular';
+}
+
+#diseno h1{
+  margin-bottom: 2%;
+  padding-top: 2%;
+}
+
+.div-diseno{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.div-diseno button{
+  width: 30%;
+}
+
+.bloque1{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.historia{
+  width: 50%;
+  margin-left: 10%;
+  color: var(--color-3);
+}
+
+/*Estilos carrousel*/
+
+.carousel-item img {
+    width: 50%; /* Ancho igual a la mitad del ancho de la pantalla */
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px; /* Tamaño de las flechas */
+    height: 40px;
+    /*background-color: var(--color-1);  Color de las flechas */
+    opacity: 0.5;
+    margin-top: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 1;
+  }
+
+  .carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: block;
+}
+.carousel-item-next,
+.carousel-item-prev {
+  position: absolute;
+  top: 0;
+}
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+  transform: translateX(0);
+}
+.carousel-item-next.carousel-item-right,
+.carousel-item-prev.carousel-item-left {
+  transform: translateX(0);
+}
+
+
+/* Estilos paquetes */
+
+.cards-diseno{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-3);
+  text-align: left;
+  width: 100%;
+}
+
+.card-diseno{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0 1% 2%;
+  margin-bottom: 1%;
+  border-radius: 4px;
+  background: linear-gradient(to right, #333, #000);
+}
+
+/* modal */
+.custom-modal .modal-content {
+  background: linear-gradient(to right, #000, #333);
+  color: var(--color-3);
+}
+
+.modal-header{
+  font-family: 'mm regular';
+  font-size: 150%;
+}
+
+.modal-body{
+  font-family: 'frutiger bold';
+}
+.btn-close{
+  --bs-btn-close-bg: url('../../assets/close.png');
+}
+
+.secondary{
+  font-family: 'frutiger bold';
+}
+
+

@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'mm regular';
+    font-size:x-large;
+    height: 120px;
+    width: 100%;    
+}
+
+.nav-logo{
+    width:33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 3%;
+}
+
+.img-logo{
+    width: 30%;
+}
+
+.nav-div{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: var(--color-4);
+}
+
+.iconos-div{
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconos-div img{
+    width: 30%;
+}
+
+.iconos-div img:hover{
+    width: 32%;
+}
+
+.nav-redes{
+    width: 26%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    --bs-nav-underline-gap: 0px;
+}
+
+/*mobile-breakpoint*/
+
+@media  screen and (max-width:800px) {
+    .nav{
+        display: none;
+    }
+    .dropdown-toggle{
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        background-color: var(--color-3);
+    }
+    .dropdown-toggle img{
+        width: 40%;
+    }
+    .menuMobile{
+        font-family: 'Frutiger';
+        font-size: small;
+    }
+    .dropdown-menu .nav-link{
+        padding: 2px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .menuMobile{
+        display: none;
+    }
+}
+
+.header-mob{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-mob{
+    width: 33.33%;
+}
+
+.nav-logo-mob img{
+    width: 50%;
+}
+
+.iconos-div-mob{
+    width: 33.33%;
+}
+
+.iconos-div-mob ul,li{  
+    list-style: none;
+}
+
+.ul-mob{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-mob img{
+    width: 10%;
+}
+
