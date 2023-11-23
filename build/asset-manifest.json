@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0bd68a9.css",
+    "main.js": "/static/js/main.21579d2a.js",
+    "static/js/787.2928eb2a.chunk.js": "/static/js/787.2928eb2a.chunk.js",
+    "static/media/flexz.gif": "/static/media/flexz.62c7f73e0a4c3cc5455b.gif",
+    "static/media/comidas.gif": "/static/media/comidas.343fb03a9aefbfdeec9b.gif",
+    "static/media/contactUs.mp4": "/static/media/contactUs.cf4c4bb2dde62f153cc6.mp4",
+    "static/media/khwaGif.gif": "/static/media/khwaGif.15cffc479822a59b2f91.gif",
+    "static/media/Morning Memories-Script.otf": "/static/media/Morning Memories-Script.55013c18405285721e97.otf",
+    "static/media/nereaFotovideo.gif": "/static/media/nereaFotovideo.457f1336cf1f3a5be732.gif",
+    "static/media/frase4.png": "/static/media/frase4.f43888989adb1dc88107.png",
+    "static/media/brand.gif": "/static/media/brand.e2e205161d879c66547b.gif",
+    "static/media/frase3.png": "/static/media/frase3.c73f5f9a9d85d091027b.png",
+    "static/media/frase2.png": "/static/media/frase2.bbffcc5b6f6842077705.png",
+    "static/media/frase1.png": "/static/media/frase1.88d5d277c486cebc82b0.png",
+    "static/media/Morning Memories-Doodles.otf": "/static/media/Morning Memories-Doodles.4bfb40a45bab117e3582.otf",
+    "static/media/Frutiger.ttf": "/static/media/Frutiger.34a475e6a16cf796979c.ttf",
+    "static/media/Frutiger_bold.ttf": "/static/media/Frutiger_bold.24463160825ae5cc44b8.ttf",
+    "static/media/Morning Memories-Italic.otf": "/static/media/Morning Memories-Italic.cdd81ec0f87edc14e8c3.otf",
+    "static/media/Morning Memories-Regular.otf": "/static/media/Morning Memories-Regular.5cf765fcd5b964bbfc61.otf",
+    "static/media/khwaLogo.png": "/static/media/khwaLogo.e4acf4fd4165980a3d34.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.1dd8ca2765f1f177ab22.png",
+    "static/media/identPreg2.png": "/static/media/identPreg2.e119a52bf2258d28bd32.png",
+    "static/media/identPreg1.png": "/static/media/identPreg1.7b89a31701399dd8e952.png",
+    "static/media/identPreg4.png": "/static/media/identPreg4.883e58919b151d97e614.png",
+    "static/media/identPreg3.png": "/static/media/identPreg3.2eed14b670f0caaae59d.png",
+    "index.html": "/index.html",
+    "main.c0bd68a9.css.map": "/static/css/main.c0bd68a9.css.map",
+    "main.21579d2a.js.map": "/static/js/main.21579d2a.js.map",
+    "787.2928eb2a.chunk.js.map": "/static/js/787.2928eb2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0bd68a9.css",
+    "static/js/main.21579d2a.js"
+  ]
+}
